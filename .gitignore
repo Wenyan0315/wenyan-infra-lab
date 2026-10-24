@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# macOS
+.DS_Store
+
+# 模型权重 / 大数据（不进 Git 历史）
+*.pt
+*.pth
+*.safetensors
+*.bin
+checkpoints/
+data/
